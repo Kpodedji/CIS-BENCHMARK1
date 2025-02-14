@@ -45,16 +45,18 @@ Copier
 cd ../remediation
 ./nom_du_script_remediation.sh
 Vérifiez les résultats :
-Après exécution des scripts, vérifiez à nouveau avec les scripts d'audit pour confirmer que les modifications ont été appliquées avec succès.
+Après exécution des scripts, vérifiez à nouveau avec les scripts d'audit pour confirmer que les modifications ont été appliquées avec succès.  
 Résumé Global
 Le CIS Benchmark pour Linux est un guide exhaustif qui aide les administrateurs à sécuriser leurs systèmes en suivant des recommandations spécifiques. Il couvre des domaines essentiels tels que :
 
-Sécurité du système de fichiers : Configuration des partitions et des modules du noyau.
-Gestion des services : Désactivation des services inutiles pour réduire la surface d'attaque.
-Contrôle d'accès : Renforcement des paramètres SSH et des droits d'accès des utilisateurs.
-Journalisation : Mise en place de solutions d'audit et de journalisation pour assurer la traçabilité des actions.
-Maintenance : Gestion des permissions des fichiers critiques et des comptes utilisateurs.
-En suivant ce benchmark, les administrateurs peuvent améliorer significativement la sécurité de leurs systèmes Linux, réduire les risques de vulnérabilités et garantir une meilleure conformité aux normes de sécurité.
+**Sécurité du système de fichiers** : Configuration des partitions et des modules du noyau.  
+**Gestion des services** : Désactivation des services inutiles pour réduire la surface d'attaque.  
+**Contrôle d'accès** : Renforcement des paramètres SSH et des droits d'accès des utilisateurs.  
+**Journalisation**: Mise en place de solutions d'audit et de journalisation pour assurer la traçabilité des actions.  
+**Maintenance** : Gestion des permissions des fichiers critiques et des comptes utilisateurs.  
+En suivant ce benchmark, les administrateurs peuvent améliorer significativement la sécurité de leurs systèmes Linux, réduire les risques de vulnérabilités et garantir une meilleure conformité aux normes de sécurité.    
 
-Conclusion
+
+## Conclusion  
+
 Le CIS Benchmark est un outil précieux pour toute organisation cherchant à protéger ses systèmes Linux. En intégrant ces pratiques dans vos procédures de gestion des systèmes, vous contribuez à créer un environnement plus sécurisé et résilient face aux menaces potentielles. N'hésitez pas à consulter la documentation et à adapter les recommandations à votre cadre opérationnel spécifique.
