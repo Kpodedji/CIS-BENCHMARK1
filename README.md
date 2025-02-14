@@ -24,29 +24,26 @@ Ce document contient des scripts d'audit et de remédiation organisés en diffé
    ```bash
    git clone <URL_du_dépôt>
    cd <nom_du_dossier>
-Accédez aux sections :
+2. **Accédez aux sections** :
 Les scripts sont organisés par catégories. Accédez à la section de votre choix, par exemple pour l'audit :
-bash
-
-Copier
+ ```bash
 cd access_control/audit
+```
 Exécutez les scripts d'audit :
 Pour vérifier l'état actuel de votre système par rapport aux recommandations, exécutez les scripts d'audit :
-bash
-
-Copier
+```bash
 chmod +x *.sh
 ./nom_du_script_audit.sh
+```
 Remédiez les configurations :
 Après avoir passé en revue les résultats des audits, utilisez les scripts de remédiation pour appliquer les configurations nécessaires :
-bash
-
-Copier
+```bash
 cd ../remediation
 ./nom_du_script_remediation.sh
+```
 Vérifiez les résultats :
 Après exécution des scripts, vérifiez à nouveau avec les scripts d'audit pour confirmer que les modifications ont été appliquées avec succès.  
-Résumé Global
+### Résumé Global
 Le CIS Benchmark pour Linux est un guide exhaustif qui aide les administrateurs à sécuriser leurs systèmes en suivant des recommandations spécifiques. Il couvre des domaines essentiels tels que :
 
 **Sécurité du système de fichiers** : Configuration des partitions et des modules du noyau.  
