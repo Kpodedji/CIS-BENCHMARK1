@@ -1,4 +1,4 @@
- #!/bin/bash
+#!/bin/bash
 echo "Remediating Filesystem Partitions..."
 mount -o remount,noexec,nodev,nosuid /tmp
 mount -o remount,noexec,nodev,nosuid /dev/shm
